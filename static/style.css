@@ -1,0 +1,10 @@
+div.class_name {
+    font-size: 200%;
+    font-family: courier;
+    color: navy;
+    word-wrap: break-word;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
