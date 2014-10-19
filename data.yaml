@@ -67,7 +67,6 @@ middles:
     - Embedded
     - Database
     - Client
-    - Service
     - Expected
     - Proxy
     - Jax
