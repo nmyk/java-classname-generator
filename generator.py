@@ -14,9 +14,10 @@ def main():
 
 
 def generate_class_name():
-    return (choice(data['firsts']) + 
-            ''.join(sample(data['middles'], 4)) + 
-            choice(data['lasts']))
+    first = choice(data['firsts'])
+    middle = ''.join(sample(data['middles'], 4))
+    last = choice(data['lasts'])
+    return first + middle + last
 
 
 if __name__ == "__main__":
