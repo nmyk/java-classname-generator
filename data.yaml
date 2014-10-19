@@ -62,7 +62,7 @@ middles:
     - ToString
     - Enum
     - Style
-    - IO
+    - Io
     - DependsOn
     - Embedded
     - Database
@@ -77,7 +77,7 @@ middles:
     - Json
     - Parameterized
     - NonTransient
-    - Instanceof
+    - InstanceOf
     - ParamAware
     - Socket
     - Sequence
@@ -85,13 +85,12 @@ middles:
     - Loader
     - Invocation
     - Timed
-    - Method
     - MaxValue
     - MinValue
     - Url
     - Resource
     - Pattern
-    - Help
+    - Helper
     - Entity
     - Invocation
     - Extracting
@@ -113,6 +112,7 @@ middles:
     - Model
     - Feed
     - Manual
+    - Temporary
 lasts:
     - Logger
     - Handler
